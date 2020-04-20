@@ -122,32 +122,32 @@ tarea_help/fast:
 	$(MAKE) -f CMakeFiles\tarea_help.dir\build.make CMakeFiles/tarea_help.dir/build
 .PHONY : tarea_help/fast
 
-src/template/stack.obj: src/template/stack.cpp.obj
+src/main.obj: src/main.cpp.obj
 
-.PHONY : src/template/stack.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-src/template/stack.cpp.obj:
-	$(MAKE) -f CMakeFiles\tarea_help.dir\build.make CMakeFiles/tarea_help.dir/src/template/stack.cpp.obj
-.PHONY : src/template/stack.cpp.obj
+src/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\tarea_help.dir\build.make CMakeFiles/tarea_help.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
 
-src/template/stack.i: src/template/stack.cpp.i
+src/main.i: src/main.cpp.i
 
-.PHONY : src/template/stack.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/template/stack.cpp.i:
-	$(MAKE) -f CMakeFiles\tarea_help.dir\build.make CMakeFiles/tarea_help.dir/src/template/stack.cpp.i
-.PHONY : src/template/stack.cpp.i
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles\tarea_help.dir\build.make CMakeFiles/tarea_help.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/template/stack.s: src/template/stack.cpp.s
+src/main.s: src/main.cpp.s
 
-.PHONY : src/template/stack.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/template/stack.cpp.s:
-	$(MAKE) -f CMakeFiles\tarea_help.dir\build.make CMakeFiles/tarea_help.dir/src/template/stack.cpp.s
-.PHONY : src/template/stack.cpp.s
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles\tarea_help.dir\build.make CMakeFiles/tarea_help.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... tarea_help
 	@echo ... rebuild_cache
-	@echo ... src/template/stack.obj
-	@echo ... src/template/stack.i
-	@echo ... src/template/stack.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

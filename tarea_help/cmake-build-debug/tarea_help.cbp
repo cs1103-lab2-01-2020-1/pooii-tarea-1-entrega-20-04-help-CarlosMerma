@@ -80,10 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/tonym/Documents/GitHub/pooii-tarea-1-entrega-20-04-help-CarlosMerma/tarea_help/src/template/stack.cpp">
+		<Unit filename="C:/Users/tonym/Documents/GitHub/pooii-tarea-1-entrega-20-04-help-CarlosMerma/tarea_help/src/lib.h">
 			<Option target="tarea_help"/>
 		</Unit>
-		<Unit filename="C:/Users/tonym/Documents/GitHub/pooii-tarea-1-entrega-20-04-help-CarlosMerma/tarea_help/src/template/stack.h">
+		<Unit filename="C:/Users/tonym/Documents/GitHub/pooii-tarea-1-entrega-20-04-help-CarlosMerma/tarea_help/src/main.cpp">
+			<Option target="tarea_help"/>
+		</Unit>
+		<Unit filename="C:/Users/tonym/Documents/GitHub/pooii-tarea-1-entrega-20-04-help-CarlosMerma/tarea_help/src/template">
 			<Option target="tarea_help"/>
 		</Unit>
 		<Unit filename="C:/Users/tonym/Documents/GitHub/pooii-tarea-1-entrega-20-04-help-CarlosMerma/tarea_help/CMakeLists.txt">

@@ -1,5 +1,7 @@
 
 #include "lib.h"
+#include "template/stack.h"
+#include "template/stack.cpp"
 
 int main() {
 
@@ -12,6 +14,8 @@ int main() {
     stringstack.push("utec");
     cout<<stringstack.top()<<endl;
     stringstack.pop();
+
+    print_elements();
 
     //agregar más ejemplos de todas las funciones de Stack
 

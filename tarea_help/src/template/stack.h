@@ -11,12 +11,12 @@ class Stack {
 private:
     vector<T> elements;
 
+
 public:
     //add copy constructor
-    Stack(const vector<T> &elements) : elements(elements) {
-
-    }
     //add assignment constructor
+
+    Stack(const vector<T> &elements);
 
     void push(T const& elem);
     void pop();
@@ -24,14 +24,15 @@ public:
     bool empty();
 
     //overload == operator
-    bool operator==(const Stack &rhs) const {
-        return elements == rhs.elements;
-    }
 
     void print_elements(ostream& os);
     friend ostream& operator<<(ostream& os, Stack<T> const& s);
 
 };
+
+template <typename T>
+ostream& operator<< (ostream& os, Stack<T> const& s);
+
 
 
 #endif //STACK_H

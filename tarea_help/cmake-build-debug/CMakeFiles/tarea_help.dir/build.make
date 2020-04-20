@@ -56,27 +56,27 @@ include CMakeFiles/tarea_help.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tarea_help.dir/flags.make
 
-CMakeFiles/tarea_help.dir/src/template/stack.cpp.obj: CMakeFiles/tarea_help.dir/flags.make
-CMakeFiles/tarea_help.dir/src/template/stack.cpp.obj: ../src/template/stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tonym\Documents\GitHub\pooii-tarea-1-entrega-20-04-help-CarlosMerma\tarea_help\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tarea_help.dir/src/template/stack.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tarea_help.dir\src\template\stack.cpp.obj -c C:\Users\tonym\Documents\GitHub\pooii-tarea-1-entrega-20-04-help-CarlosMerma\tarea_help\src\template\stack.cpp
+CMakeFiles/tarea_help.dir/src/main.cpp.obj: CMakeFiles/tarea_help.dir/flags.make
+CMakeFiles/tarea_help.dir/src/main.cpp.obj: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tonym\Documents\GitHub\pooii-tarea-1-entrega-20-04-help-CarlosMerma\tarea_help\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tarea_help.dir/src/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tarea_help.dir\src\main.cpp.obj -c C:\Users\tonym\Documents\GitHub\pooii-tarea-1-entrega-20-04-help-CarlosMerma\tarea_help\src\main.cpp
 
-CMakeFiles/tarea_help.dir/src/template/stack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tarea_help.dir/src/template/stack.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tonym\Documents\GitHub\pooii-tarea-1-entrega-20-04-help-CarlosMerma\tarea_help\src\template\stack.cpp > CMakeFiles\tarea_help.dir\src\template\stack.cpp.i
+CMakeFiles/tarea_help.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tarea_help.dir/src/main.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tonym\Documents\GitHub\pooii-tarea-1-entrega-20-04-help-CarlosMerma\tarea_help\src\main.cpp > CMakeFiles\tarea_help.dir\src\main.cpp.i
 
-CMakeFiles/tarea_help.dir/src/template/stack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tarea_help.dir/src/template/stack.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tonym\Documents\GitHub\pooii-tarea-1-entrega-20-04-help-CarlosMerma\tarea_help\src\template\stack.cpp -o CMakeFiles\tarea_help.dir\src\template\stack.cpp.s
+CMakeFiles/tarea_help.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tarea_help.dir/src/main.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tonym\Documents\GitHub\pooii-tarea-1-entrega-20-04-help-CarlosMerma\tarea_help\src\main.cpp -o CMakeFiles\tarea_help.dir\src\main.cpp.s
 
 # Object files for target tarea_help
 tarea_help_OBJECTS = \
-"CMakeFiles/tarea_help.dir/src/template/stack.cpp.obj"
+"CMakeFiles/tarea_help.dir/src/main.cpp.obj"
 
 # External object files for target tarea_help
 tarea_help_EXTERNAL_OBJECTS =
 
-tarea_help.exe: CMakeFiles/tarea_help.dir/src/template/stack.cpp.obj
+tarea_help.exe: CMakeFiles/tarea_help.dir/src/main.cpp.obj
 tarea_help.exe: CMakeFiles/tarea_help.dir/build.make
 tarea_help.exe: CMakeFiles/tarea_help.dir/linklibs.rsp
 tarea_help.exe: CMakeFiles/tarea_help.dir/objects1.rsp

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tarea_help.dir/src/template/stack.cpp.obj"
+  "CMakeFiles/tarea_help.dir/src/main.cpp.obj"
   "libtarea_help.dll.a"
   "tarea_help.exe"
   "tarea_help.exe.manifest"
