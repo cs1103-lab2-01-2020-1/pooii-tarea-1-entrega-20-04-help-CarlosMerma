@@ -1,38 +1,29 @@
-
-
-#ifndef STACK_H
-#define STACK_H
+#ifndef Pila_H
+#define Pila_H
 
 #include "../lib.h"
 
 template <typename T>
-
-class Stack {
+class stack {
 private:
     vector<T> elements;
 
-
 public:
-    //add copy constructor
+    //add copy constructor+
     //add assignment constructor
-
-    Stack(const vector<T> &elements);
-
-    void push(T const& elem);
+    void push(T const& item);
     void pop();
-    T const& top() const;
+    T top() const;
     bool empty();
-
     //overload == operator
-
     void print_elements(ostream& os);
-    friend ostream& operator<<(ostream& os, Stack<T> const& s);
+
+    friend ostream& operator<<(ostream& os, stack<T> const& s);
 
 };
 
 template <typename T>
-ostream& operator<< (ostream& os, Stack<T> const& s);
+ostream& operator<<(ostream& os, stack<T> const& s);
 
+#endif //Pila_H
 
-
-#endif //STACK_H

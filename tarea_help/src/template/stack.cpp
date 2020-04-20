@@ -1,39 +1,28 @@
-
-
 #include "stack.h"
-using namespace std;
 
-template <class T>
-void Stack<T>::push (T const& elem){
-    elements.push_back(elem);
+template <typename T>
+void stack<T>::push (T const& item) {
+    elements.push_back(item);
 }
 
 template <class T>
-void Stack<T> ::pop(){
+void stack<T>::pop () {
     elements.pop_back();
 }
-
-template <class T>
-T const& Stack<T>:: top() const {
-    return elements.back();
-    }
 
 template <class T>
 bool empty(){
     vector<T> elements;
     return elements.empty();
-
 }
 
 template <class T>
-void Stack<T>::print_elements(ostream& os){
-   cout<<elements;
+T stack<T>::top () const {
+    return elements.back();
 }
 
-template <class T>
-ostream& operator<<(ostream& os, Stack<T> const& s){
-    os<<s.elements;
+template <typename T>
+ostream& operator<<(ostream& os, stack<T> const& s){
+    os << s.itements;
     return os;
 }
-
-
