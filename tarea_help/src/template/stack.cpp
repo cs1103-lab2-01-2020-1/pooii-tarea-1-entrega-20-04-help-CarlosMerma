@@ -21,6 +21,8 @@ T stack<T>::top () const {
     return elements.back();
 }
 
+
+
 template <typename T>
 ostream& operator<<(ostream& os, stack<T> const& s){
     os << s.itements;
